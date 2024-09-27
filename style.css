@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+margin: 0;
+padding: 0;
+
+}
+
+header {
+    display: flex;
+    background-color: blue;
+    margin: 10px 10px 10px 10px ; 
+    width: 90%;
+    height: 50px;
+}
+ 
+ .section-principal {
+    display: flex;
+    background-color: brown;
+    margin: 10px 10px 10px 10px ;
+    width: 90%;
+    height: 200px;
+ }
+ .section-cards {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 130px;
+    margin: 4px;
+    }
+.card{
+    display: grid;
+    margin: 4px;
+    background-color: green;
+}
+
+
+
+.section-informacion {
+    display: grid;
+    grid-template-columns: repeat(2, 90fr) ;
+    background-color:gray ;
+    gap: 20px;
+    width: 30%;
+    height: 300px;
+    margin: 10px 10px 10px 10px;
+}
+.membresia {
+    display: grid;
+    background-color: coral;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px;
+    
+}
+
